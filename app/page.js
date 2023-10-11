@@ -95,7 +95,7 @@ export default function Home() {
       </section>
       <section className='min-h-screen container mx-auto p-5 px-[160px]'>
         <div className='flex flex-col items-center mt-[96px]'>
-          <h2 className='text-[#0F2137] font-[500] px-[15rem] text-center text-3xl mb-4 leading-[45px]'>Leading companies trust us to develop most powerful software with our talent team</h2>
+          <h2 className='text-[#0F2137] font-[500] px-[15rem] text-center text-3xl mb-4 leading-[45px]'>Leading companie trust us to develop most powerful software with our talent team</h2>
           <p className='text-[16px] w-1/2 text-center leading-8'>Every email, web page, and social media post makes an impression on your customers. With our software you can be confident it's impression.</p>
           <div className='mt-[40px]'>
               <Link href="#" class="inline-flex items-center group text-[#4f96ff] text-[16px] font-[500]">
