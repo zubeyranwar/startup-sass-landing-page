@@ -107,6 +107,7 @@ export default function Home() {
           </div>
           <div className='relative'>
             <Image src={video} width="1083" height="650" className='max-w-full' />
+            {/* hi */}
             <div className='absolute bottom-[94px] left-[45%]'>
               <button className='flex items-center text-white gap-2 font-[700]' onClick={()=>setIsModelOpen(prev=>!prev)}><Image src={pause} width="20" height="20"/>Watch Full video</button>
             </div>
