@@ -163,8 +163,8 @@ export default function Home() {
           <h2 className='text-[#0F2137] font-[500] px-[15rem] text-center text-3xl mb-4 leading-[45px]'>What deal suit you perfect</h2>
           <p className='text-[16px] w-1/2 text-center leading-8  font-[400]'>Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred format.</p>
           <div className='relative w-[300px] h-[65px] bg-[#F7F8FB] mt-[50px] flex justify-around items-center rounded-[5px] p-[8px]'>
-            <button style={{backgroundColor:value===0 && 'white'}} className='p-[8px_25px] rounded-[5px]'  onClick={()=>setValue(0)}>Monthly Plan</button>
-            <button style={{backgroundColor:value===1 && 'white'}} className='p-[8px_25px] rounded-[5px]' onClick={()=>setValue(1)}>Annual Plan</button>
+            <button style={{backgroundColor:value===0 && 'white'}} className='p-[8px_25px] rounded-[5px] whitespace-nowrap'  onClick={()=>setValue(0)}>Monthly Plan</button>
+            <button style={{backgroundColor:value===1 && 'white'}} className='p-[8px_25px] rounded-[5px]  whitespace-nowrap' onClick={()=>setValue(1)}>Annual Plan</button>
             <div className='absolute top-[-15%] left-[60%] rounded-[25px] px-[8px] text-[13px] font-[700] bg-[#28DDB2] text-white whitespace-nowrap '>Save 20%</div>
           </div>
           <div className='flex gap-8 mt-[80px]'> 
