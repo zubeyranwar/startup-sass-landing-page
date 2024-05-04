@@ -1,11 +1,8 @@
 import './globals.css'
 import Nav from './components/Nav'
-import { DM_Sans } from 'next/font/google'
+// import { DM_Sans } from 'next/font/google'
 import Footer from './components/Footer'
 
-const dm_sans = DM_Sans({ 
-  subsets: ['latin']
- })
 
 export const metadata = {
   title: 'Create Next App',
@@ -16,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <link rel="icon" href="/favicon.ico" sizes="any" />
-      <body className={dm_sans.className}>
+      <body>
         <Nav />
         {children}
         <Footer />

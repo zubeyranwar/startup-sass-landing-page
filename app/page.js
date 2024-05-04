@@ -23,12 +23,12 @@ export default function Home() {
   const [value,setValue] = useState(0)
 
   return (
-    <main>
+    <main className='mt-[40px]'>
       <section className='flex justify-between  items-start container mx-auto p-5 px-[160px]'>
         <div className='mt-5'>
-          <h1 className='max-w-md leading-[79px] font-[700] text-[60px] text-[#02073e]'>Professional Communication For Your Team</h1>
-          <p className='max-w-sm mt-[19px] text-[18px]  leading-loose text-[#02073E]'>Get your blood tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.</p>
-          <button className='px-8 py-4 bg-[#28DDB2] mt-7 rounded-[8px] text-white font-bold transition-bg ease-in-out delay-3 duration-300 hover:bg-[#10132D]'>Explore Now</button>
+          <h1 className='max-w-md leading-[1.3em] font-[700] text-[48px] text-[#02073e]'>Professional Communication For Your Team</h1>
+          <p className='max-w-sm mt-[40px] text-[18px] leading-7 text-[#02073E]'>Get your blood tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.</p>
+          <button className='px-8 py-4 bg-[#28DDB2] mt-[40px] mb-[40px] rounded-[8px] text-white font-bold transition-bg ease-in-out delay-3 duration-300 hover:bg-[#10132D]'>Explore Now</button>
           <div className='flex space-x-4 mt-8'>
             <Image src={paypal}  width="100" height="28"/>
             <Image src={google}  width="85" height="28"/>
@@ -159,7 +159,7 @@ export default function Home() {
             </div>
           </div>
       </section>
-      <section className='min-h-screen container mx-auto p-5 px-[160px]'>
+      <section className='min-h-screen container mx-auto p-5 px-[160px]' id="pricing">
         <div className='flex flex-col items-center mt-[96px]'>
           <h2 className='text-[#0F2137] font-[500] px-[15rem] text-center text-3xl mb-4 leading-[45px]'>What deal suit you perfect</h2>
           <p className='text-[16px] w-1/2 text-center leading-8  font-[400]'>Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred format.</p>
@@ -188,7 +188,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className='min-h-screen container mx-auto  px-[160px]'>
+      <section className='min-h-screen container mx-auto  px-[160px]' id="faq">
         <div className='flex flex-col items-center mt-[192px]'>
           <h2 className='text-[#0F2137] font-[500] px-[15rem] text-center text-3xl mb-4 leading-[45px]'>Do you have any quesiton</h2>
           <p className='text-[16px] w-1/2 text-center leading-[35px] mb-0'>Our support team ready to help you, please contact with them</p> 

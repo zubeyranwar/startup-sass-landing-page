@@ -7,6 +7,25 @@ import dimond from './assets/dimond.png'
 import award from './assets/award.png'
 import deal from './assets/deal.png'
 
+export const navLinks = [
+    {
+        label:"Home",
+        href:"/"
+    },
+    {
+        label:"Feature",
+        href:"/#feature"
+    },
+    {
+        label:"Pricing",
+        href:"/#pricing"
+    },
+    {
+        label:"Faq",
+        href:'/#faq'
+    }
+]
+
 export const features =[
     {
         title:'Fast Performance',
@@ -52,7 +71,7 @@ export const achievenments = [
         },
         {
             color: '#28DCB2',
-            title: '& 3M',
+            title: '&3M',
             subtitle: 'Job posted everyday`s with qualification'
         }
     ],
