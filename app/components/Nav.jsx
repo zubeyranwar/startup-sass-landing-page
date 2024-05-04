@@ -4,7 +4,7 @@ import classnames from "classnames";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import logo from ".././assets/logo-test.png";
+import logo from ".././assets/logo.svg";
 import { navLinks } from "../constant";
 
 const Nav = () => {
@@ -15,7 +15,7 @@ const Nav = () => {
       <div className="flex justify-between items-center">
         <div className="max-w-full">
           <Link href="/">
-            <Image src={logo} width="70" height="auto" />
+            <Image src={logo} width="185" height="auto" />
           </Link>
         </div>
         <ul className="flex space-x-8 list-none">
